@@ -1,7 +1,6 @@
 
 function myfunc() { 
   
-    // Setting DOM to all boxes or input field 
     var b1, b2, b3, b4, b5, b6, b7, b8, b9; 
     b1 = document.getElementById("b1").value; 
     b2 = document.getElementById("b2").value; 
@@ -270,8 +269,6 @@ function myfunc() {
         b6btn.style.color = "red"; 
     } 
   
-    // Checking of Player 0 finish 
-    // Here, Checking about Tie 
     else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
         || b2 == '0') && (b3 == 'X' || b3 == '0') && 
         (b4 == 'X' || b4 == '0') && (b5 == 'X' || 
